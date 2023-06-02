@@ -1,10 +1,10 @@
 public class Peliculas_Terror {
 
     public void Terror () {
-        System.out.println("Invitación al infierno");
-        System.out.println("Sonríe");
-        System.out.println("La reencarnación");
-        System.out.println("La luz del diablo");
+        System.out.println("El exorcista");
+        System.out.println("El resplandor");
+        System.out.println("El proyecto de la bruja de Blair");
+        System.out.println("El conjuro");
     }
 }
 
