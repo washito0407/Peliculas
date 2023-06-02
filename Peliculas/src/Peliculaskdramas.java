@@ -6,8 +6,6 @@ public class Peliculaskdramas {
         System.out.println("Goblin");
         System.out.println("Crash Landing on You");
 
-
-
     }
 
 
