@@ -19,12 +19,19 @@ public class Main {
         if (opcion == 1) {
             Metodo accion = new Metodo("Robin Hood", "accion",2010, "Otto");
             accion.mostrar();
-
+            Metodo accion1 = new Metodo("300", "accion",2007," Zack Snyder");
+            accion1.mostrar();
+            Metodo accion2 = new Metodo("Vikingos","accion", 2013, "Michael Hirst");
+            accion2.mostrar();
+            Metodo accion3 = new Metodo("Aliados","accion",2016,"Robert Zemeckis");
+            accion3.mostrar();
 
         }
 
         if(opcion == 2){
             System.out.println("Peliculas de accion");
+            Metodo comedia= new Metodo("Deadpool","comedia",2017,"Tim Miller");
+            comedia.mostrar();
         }
         if(opcion == 3){
             System.out.println("Peliculas de terror");
