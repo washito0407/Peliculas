@@ -1,17 +1,53 @@
+import java.util.Scanner;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
+
     public static void main(String[] args) {
-        // Press Alt+Intro with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Scanner entrada = new Scanner(System.in);
+        int opcion;
 
-        // Press Mayús+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        System.out.println("Menu de peliculas: ");
+        System.out.println("1) Peliculas de accion");
+        System.out.println("2) Peliculas de comedia");
+        System.out.println("3) Peliculas de terror");
+        System.out.println("4) K-doramas");
+        System.out.println("Elija una opcion:  ");
+        opcion = entrada.nextInt();
 
-            // Press Mayús+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        if (opcion == 1) {
+            Metodo accion = new Metodo("Robin Hood", "accion",2010, "Otto");
+            accion.mostrar();
+            Metodo accion1 = new Metodo("300", "accion",2007," Zack Snyder");
+            accion1.mostrar();
+            Metodo accion2 = new Metodo("Vikingos","accion", 2013, "Michael Hirst");
+            accion2.mostrar();
+            Metodo accion3 = new Metodo("Aliados","accion",2016,"Robert Zemeckis");
+            accion3.mostrar();
+
         }
+
+        if(opcion == 2){
+            System.out.println("Peliculas de accion");
+            Metodo comedia= new Metodo("Deadpool","comedia",2017,"Tim Miller");
+            comedia.mostrar();
+            Metodo comedia1= new Metodo("Zoolander","comedia",2001,"Ben Stiller");
+            comedia1.mostrar();
+            Metodo comedia2= new Metodo("Gato con botas: EL ultimo deseo","comedia",2022,"Joel Crawford");
+            comedia2.mostrar();
+            Metodo comedia3 = new Metodo("¿Quien carajo son los Miller","Comedia",2013,"Rawson Marshall Thurber");
+            comedia3.mostrar();
+        }
+        if(opcion == 3){
+            System.out.println("Peliculas de terror");
+        }
+        if(opcion ==4){
+            System.out.println("k-doramas");
+        }
+
+
+
+
     }
 }
