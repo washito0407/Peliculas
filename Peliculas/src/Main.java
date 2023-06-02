@@ -41,9 +41,25 @@ public class Main {
 
         if(opcion == 3){
             System.out.println("Peliculas de terror");
+            Metodo comedia= new Metodo("El exorcista","Terror sobrenatural",1973,"William Friedkin");
+            comedia.mostrar();
+            Metodo comedia1= new Metodo("El resplandor","Terror psicológico",1980,"Stanley Kubrick");
+            comedia1.mostrar();
+            Metodo comedia2= new Metodo("El proyecto de la bruja de Blair","Terror de metraje encontrado",1999,"Daniel Myrick");
+            comedia2.mostrar();
+            Metodo comedia3 = new Metodo("El conjuro","Terror paranormal",2013,"James Wan");
+            comedia3.mostrar();
         }
         if(opcion ==4){
-            System.out.println("k-doramas");
+            System.out.println("K-dramas:");
+            Metodo comedia= new Metodo("Boys Over Flowers","Romance, Comedia, Drama",2009,"Jeon Ki-sang");
+            comedia.mostrar();
+            Metodo comedia1= new Metodo("Descendants of the Sun","Romance, Drama, Acción",1980,"Lee Eung-bok");
+            comedia1.mostrar();
+            Metodo comedia2= new Metodo("Goblin","Fantasía, Romance, Drama",1999,"Lee Eung-bok");
+            comedia2.mostrar();
+            Metodo comedia3 = new Metodo("Crash Landing on You","Romance, Comedia, Drama",2013,"Lee Jeong-hyo");
+            comedia3.mostrar();
         }
 
 
