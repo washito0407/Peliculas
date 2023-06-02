@@ -3,55 +3,6 @@ import java.util.Scanner;
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    public class Peliculas {
-
-
-        String nombre;
-        String genero;
-        int anio;
-
-        public Peliculas(String nombre, String genero, int anio, String director) {
-            this.nombre = nombre;
-            this.genero = genero;
-            this.anio = anio;
-            this.director = director;
-        }
-
-        public void setNombre(String nombre) {
-            this.nombre = nombre;
-        }
-
-        public void setGenero(String genero) {
-            this.genero = genero;
-        }
-
-        public void setAnio(int anio) {
-            this.anio = anio;
-        }
-
-        public void setDirector(String director) {
-            this.director = director;
-        }
-
-        public String getNombre() {
-            return nombre;
-        }
-
-        public String getGenero() {
-            return genero;
-        }
-
-        public int getAnio() {
-            return anio;
-        }
-
-        public String getDirector() {
-            return director;
-        }
-
-        String director;
-
-    }
 
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
@@ -66,8 +17,9 @@ public class Main {
         opcion = entrada.nextInt();
 
         if (opcion == 1) {
-            Peliculas_accion lista = new Peliculas_accion();
-            lista.Accion();
+            Metodo accion = new Metodo("Robin Hood", "accion",2010, "Otto");
+            accion.mostrar();
+
 
         }
 
