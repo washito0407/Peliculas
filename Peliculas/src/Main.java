@@ -62,8 +62,5 @@ public class Main {
             comedia3.mostrar();
         }
 
-
-
-
     }
 }
