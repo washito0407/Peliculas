@@ -12,7 +12,7 @@ public class Main {
         System.out.println("1) Peliculas de accion");
         System.out.println("2) Peliculas de comedia");
         System.out.println("3) Peliculas de terror");
-        System.out.println("4) K-doramas");
+        System.out.println("4) Peliculas de K-dramas");
         System.out.println("Elija una opcion:  ");
         opcion = entrada.nextInt();
 
