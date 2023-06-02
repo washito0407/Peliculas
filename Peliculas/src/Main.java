@@ -32,6 +32,12 @@ public class Main {
             System.out.println("Peliculas de accion");
             Metodo comedia= new Metodo("Deadpool","comedia",2017,"Tim Miller");
             comedia.mostrar();
+            Metodo comedia1= new Metodo("Zoolander","comedia",2001,"Ben Stiller");
+            comedia1.mostrar();
+            Metodo comedia2= new Metodo("Gato con botas: EL ultimo deseo","comedia",2022,"Joel Crawford");
+            comedia2.mostrar();
+            Metodo comedia3 = new Metodo("¿Quien carajo son los Miller","Comedia",2013,"Rawson Marshall Thurber");
+            comedia3.mostrar();
         }
         if(opcion == 3){
             System.out.println("Peliculas de terror");
